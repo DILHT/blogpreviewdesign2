@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+   
+    .container {
+        
+        padding: 50px;
+       display: flex;
+        justify-content: center;
+    }
+    .image{
+        border-radius: 10px;
+    }
+
+    .authorimage{
+        height: 40px;
+        padding: 5px;
+    }
+
+    .progress{
+        width: 100px;
+        padding: 8px;
+        background-color:hsl(47, 88%, 63%) ;
+        /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+        font-family:figtree smallbold;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+
+    span{
+        display:inline-flex;
+        
+    }
+     
+
+
+   .description{
+      color: hsl(0, 0%, 42%);
+   }
+
+    .card {
+        
+         padding: 20px ;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+        word-wrap: normal;
+        
+    }
+
+    .card-title{
+        /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+        font-family: figtree ExtraBold;
+        font-weight: 800;
+        
+    }
+
+
+    :hover.card-title{
+        
+        color: hsl(47, 88%, 63%);
+    }
+
+    /*footer css*/
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+/* resposinve css*/
+    @media (max-width: 1440px) {
+        .card {
+            padding: 15px;
+        }
+    
+        .card-title {
+            font-size: 1.2em;
+        }
+    }
+  
